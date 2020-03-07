@@ -7,7 +7,7 @@ Below is a schematic outlining the process flow.
 
 ![schematic](schematic.png)
 
-In order create your own bot, first create a new AWS S3 bucket where you upload a *.txt* with the content to be posted as well as *counter.txt*
+In order create your own bot, first create a new AWS S3 bucket where you upload a *.txt* with the content to be posted as well as *counter.txt* with its value set to 0.
 
 Download the *.zip* in this repository and edit *lambda_function.py*. Then replace the *zuliprc* file with the one for your bot, downloaded from Zulip.
 
