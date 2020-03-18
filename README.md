@@ -5,7 +5,7 @@ This can be used for example to post a daily quote into your organization's Zuli
 
 Below is a schematic outlining the process flow.
 
-![schematic](schematic.png)
+![process_flow](process_flow.png)
 
 In order create your own bot, first create a new AWS S3 bucket where you upload a *.txt* with the content to be posted as well as *counter.txt* with its value set to 0.
 
